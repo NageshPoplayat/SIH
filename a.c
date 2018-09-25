@@ -12,6 +12,7 @@ int arrsum(int a[])
 int main()
 {
     int arr[]={10,20,30,40};
+    sum=0;
     int sum=arrsum(arr);
     printf("Sum is : %d",sum);
     return 0;
